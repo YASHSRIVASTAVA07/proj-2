@@ -1,7 +1,1 @@
-error when added lines in core/views.py 
 
-lines= 14,15,16
-
-lines added == user_profile = Profile.objects.get(user=request.user) [[[below line 15]]]
-
-lines edited == return render(request, 'settings.html', {'user_profile': user_profile})
